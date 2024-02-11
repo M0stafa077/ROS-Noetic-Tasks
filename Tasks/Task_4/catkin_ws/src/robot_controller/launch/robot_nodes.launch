@@ -1,0 +1,5 @@
+<launch>
+    <node name = "turtle_sim" pkg = "turtlesim" type = "turtlesim_node"/>
+    <!-- <node name = "turtle_key" pkg = "turtlesim" type = "turtle_teleop_key"/> -->
+    <node name = "turtle_circle" pkg = "robot_controller" type = "turtle_circle.py"/>
+</launch>
